@@ -1,14 +1,14 @@
 
 
 *{
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	text-decoration: none;
 }
 
-@font-face{
+@font-face {
 	font-family: 'RedHat_bold';
-	src: url('../res/RedHat/Bold.woff');
+	src: url(../res/RedHat/Bold.woff);
 }
 
 @font-face{
@@ -18,22 +18,23 @@
 
 
 @media (max-width: 501px) {
+	
 	body {
-		width:  100%;
-		background-color: hsl(225, 100%, 94%);
+		background-color: #e0e8ff;
 		background-image: url('../res/bgmobile.svg');
 		background-size: 100% 194px;
 		background-position: 0 0;
 		background-repeat: no-repeat;
+		width:  100%;
 	}
 
-	main#card {
-		width: min(85%, 375px);
+	#card {
 		overflow-x: hidden;
 		margin: auto;
 		margin-top: 15%;
 		border-radius: 24px;
 		background-color: #f4f4f4;
+		width: min(85%, 375px);
 	}
    /*mobile style*/
 }
@@ -41,128 +42,136 @@
 @media (min-width: 501px) {
 	body {
 		width:  100%;
-		background-color: hsl(225, 100%, 94%);
+		background-color: #e0e8ff;
 		background-image: url('../res/bgdesktop.svg');
 		background-size: 100% 437px;
 		background-repeat: no-repeat;
 	}
 
-	main#card {
+	#card {
 		width: min(85%, 375px);
 		overflow-x: hidden;
 		margin: auto;
-		margin-top: 7%;
+		margin-top: 8%;
+		margin-bottom: 8%;
 		border-radius: 24px;
 		background-color: #f4f4f4;
 	}
-	 /*desktop style*/
+	 /* desktop style */
 }
 
-header#c-head img {
+#card {
+	box-shadow: 5px 2px 20px #c2bebe;
+}
+
+#c-head img {
 	width: 100%;
 	height: 200px;
 }
-header#c-head h1 {
+
+#c-head h1 {
 	width: 80%;
 	margin: 10% 0 1% 10%;
 	text-align: center;
 	font-family: RedHat_bold;
 	font-size: 24px;
-	color:  hsl(223, 47%, 23%);
+	color:  #1f2f56;
 }
-header#c-head p {
+#c-head p {
 	width:80%;
 	margin: 5% 0 1% 10%;
 	text-align: center;
 	font: 500 14px/2 RedHat_regular;
-	color: hsl(224, 23%, 55%);
+	color: #7280a7;
 }
 
 
-div#c-body {
+#c-body {
 	width: 100%;
 	margin: 10% 0 1% 0;
 }
 
-div#c-body div {
+#c-body div {
 	display: grid;
 	grid-template-columns: 20% 40% 40%;
 	width: 90%;
 	margin: 1% auto;
 	padding: 5% 0;
 	border-radius: 10px;
-	background-color:  hsl(225, 100%, 96%);
+	background-color: #ebf0ff;
 }
-div#c-body div img {
+#c-body div img {
 	width: 70%;
 	margin-left:15%;
 	vertical-align: middle;
 }
-div#c-body div p{
+#c-body div p{
 	width: 80%;
 	margin-left: 10%;
 	font: 700 14px/1.3 RedHat_bold;
-	color: hsl(223, 47%, 23%);
+	color: #1f2f56;
 }
 
-div#c-body div p span{
+#c-body div p span{
 	display: block;
 	font: 300 13px/1.3 RedHat_bold;
-	color: hsl(224, 23%, 55%);
+	color: #7280a7;
 }
 
-div#c-body div a{
+#c-body div a{
 	width: 100%;
 	margin: auto;
 	display: block;
 	text-align: center;
 	font: 600 12px/1.3 RedHat_bold;
 	text-decoration: underline;
-	color: hsl(223, 47%, 23%);
+	color: #1f2f56;
 	padding: 3% 0;
 	margin-top: 4%;
 }
 
 
-div#c-body div a:hover{
-	color: hsl(224, 23%, 55%);
+#c-body div a:hover{
+	color: #7280a7;
 	text-decoration: none;
 }
 
-footer#c-end {
+#c-end {
 	display: block;
 	width: 90%;
 	margin: 5% 0 7% 5%;
 	padding: 1% 0;
 }
-footer#c-end input[type='button']{
+#c-end input[type='button']{
 	display: block;
 	width: 100%;
-	border: 1px solid hsl(245, 75%, 52%);
+	border: 1px solid #3829e0;
 	padding: 5% 12%;
 	border-radius: 10px;
 	margin: 2% 0;
     font: 600 13px/1.3 RedHat_bold;
-    background-color: hsl(245, 75%, 52%);
+    background-color: #3829e0;
     color: #f4f4f4;
     cursor: pointer;
+    box-shadow: 1px 13px 18px rgba(139,139,237,.7);
 }
 
-footer#c-end input[type='button']:last-child{
+#c-end input[type='button']:last-child {
 	background: none;
 	border: none;
-	color: hsl(224, 23%, 55%);
+	box-shadow: none; 
+	color: #7280a7;
 }
 
 
-footer#c-end input[type='button']:first-child:hover{
-	background-color: hsl(245, 75%, 72%);
-	border: 1px solid hsl(245, 75%, 72%);
+#c-end input[type='button']:first-child:hover {
+	background-color: #8b82ed;
+	border: 1px solid #8b82ed;
     color: #f4f4f4;
 }
 
-footer#c-end input[type='button']:last-child:hover{
-	color:  hsl(223, 47%, 23%);
-	background-color: none;
+#c-end input[type='button']:last-child:hover {
+	color:  #1f2f56;
+	background-color: transparent;
 	border: none;
 }
