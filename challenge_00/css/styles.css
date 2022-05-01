@@ -31,7 +31,7 @@
 	#card {
 		overflow-x: hidden;
 		margin: auto;
-		margin-top: 15%;
+		margin-top: 17%;
 		border-radius: 24px;
 		background-color: #f4f4f4;
 		width: min(85%, 375px);
@@ -51,9 +51,7 @@
 	#card {
 		width: min(85%, 375px);
 		overflow-x: hidden;
-		margin: auto;
-		margin-top: 8%;
-		margin-bottom: 8%;
+		margin: 7% auto;
 		border-radius: 24px;
 		background-color: #f4f4f4;
 	}
@@ -66,37 +64,39 @@
 
 #c-head img {
 	width: 100%;
-	height: 200px;
+	height: 220px;
 }
 
 #c-head h1 {
 	width: 80%;
-	margin: 10% 0 1% 10%;
+	margin: 10% 0 0 10%;
 	text-align: center;
 	font-family: RedHat_bold;
-	font-size: 24px;
+	font-size: 28px;
+	padding: 1.5% 0;
 	color:  #1f2f56;
+	vertical-align: middle;
 }
 #c-head p {
 	width:80%;
-	margin: 5% 0 1% 10%;
+	margin: 3% 0 0 10%;
 	text-align: center;
-	font: 500 14px/2 RedHat_regular;
+	font: 500 16px/1.5 RedHat_regular;
 	color: #7280a7;
 }
 
 
 #c-body {
 	width: 100%;
-	margin: 10% 0 1% 0;
+	margin: 6% 0 1% 0;
 }
 
 #c-body div {
 	display: grid;
 	grid-template-columns: 20% 40% 40%;
 	width: 90%;
-	margin: 1% auto;
-	padding: 5% 0;
+	margin: 0 auto;
+	padding: 7% 0;
 	border-radius: 10px;
 	background-color: #ebf0ff;
 }
@@ -108,26 +108,26 @@
 #c-body div p{
 	width: 80%;
 	margin-left: 10%;
-	font: 700 14px/1.3 RedHat_bold;
+	font: 700 16px/1.6 RedHat_bold;
 	color: #1f2f56;
 }
 
 #c-body div p span{
 	display: block;
-	font: 300 13px/1.3 RedHat_bold;
+	font: 300 16px/1.6 RedHat_bold;
 	color: #7280a7;
 }
 
 #c-body div a{
-	width: 100%;
+	width: 80%;
 	margin: auto;
 	display: block;
-	text-align: center;
-	font: 600 12px/1.3 RedHat_bold;
+	text-align: right;
+	font: 600 14px/1.3 RedHat_bold;
 	text-decoration: underline;
 	color: #1f2f56;
 	padding: 3% 0;
-	margin-top: 4%;
+	margin-top: 7%;
 }
 
 
@@ -146,10 +146,10 @@
 	display: block;
 	width: 100%;
 	border: 1px solid #3829e0;
-	padding: 5% 12%;
+	padding: 4% 12%;
 	border-radius: 10px;
 	margin: 2% 0;
-    font: 600 13px/1.3 RedHat_bold;
+    font: 600 15px/1.3 RedHat_bold;
     background-color: #3829e0;
     color: #f4f4f4;
     cursor: pointer;
@@ -161,6 +161,7 @@
 	border: none;
 	box-shadow: none; 
 	color: #7280a7;
+	margin-top: 5%;
 }
 
 
