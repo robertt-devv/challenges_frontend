@@ -31,9 +31,9 @@
 	#card {
 		overflow-x: hidden;
 		margin: auto;
-		margin-top: 15%;
+		margin-top: 17%;
 		border-radius: 24px;
-		background-color: #f4f4f4;
+		background-color: #fff;
 		width: min(85%, 375px);
 	}
    /*mobile style*/
