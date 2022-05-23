@@ -16,7 +16,7 @@ section.card {
 	background-color: #fefefe;
 	overflow: hidden;
 	margin: 7% auto auto;
-	border-radius: 24px;
+	border-radius: 10px;
 }
 
 section.card header#cheader {width: 100%;}
@@ -40,7 +40,7 @@ section.card div#cbody {
 	display: grid;
 	grid-template-columns: 20% 50% 30%;
 	width: 77%;
-	margin: 3% auto 0 auto;
+	margin: 3.4% auto 0 auto;
 	border-radius: 10px;
 	padding:  5%;
     background-color: #f5f7ff;
@@ -94,5 +94,5 @@ section.card .buttons:last-child{
     box-shadow: none;
 }
 
-section.card .bnt-top:hover {background-color: #766af2;}
+section.card .bnt-top:hover {background-color: #766af2; border:  1px solid #766af2;}
 section.card .bnt-bmt:hover {color: #000;}
