@@ -7,11 +7,11 @@
 }
 
 section.card-container {
-    border-radius: 10px;
+    border-radius: 11px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    width: min(720px,80%);
-    margin: 4% auto;
+    width: min(926px,80%);
+    margin: 12% auto;
     overflow: hidden;
 }
 
@@ -30,33 +30,33 @@ div.card .image{
 }
 
 div.card .title {
-    font: 700 2rem/1 'Big Shoulders Display', cursive;
+    font: 700 2.5rem/1 'Big Shoulders Display', cursive;
     cursor: pointer;
     color: #f2f2f2;
     text-transform: uppercase;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 
 div.card .resume {
-    font: 350 .8rem/1.6 'Lexend Deca', sans-serify;
+    font: 350 .9rem/1.7 'Lexend Deca', sans-serify;
     width: 80%;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 12%;
     color: #fff;
     height: 150px;
 }
 
 div.card .link {
-    font: 400 0.6rem/1.5 'Lexend Deca', sans-serify;
+    font: 400 0.9rem/1.5 'Lexend Deca', sans-serify;
     display: block;
-    width: 50%;
+    width: 56%;
     border: 2px solid #f2f2f2;
     border-radius: 30px;
     background-color: #f2f2f2;
-    padding: 3% 2%; 
+    padding: 4.4% 7%; 
     text-align: center;
     text-decoration: none;
-    margin: 14% 0 10% 0;
+    margin: 22% 0 14% 5%;
 }
 
 div.card .link-a{color: #e38826;}
