@@ -1,0 +1,143 @@
+*{ font-size: 9px;padding: 0; margin: 0; box-sizing: border-box;}
+@font-face {
+    font-family: 'font_01';
+    src: url('../res/font_01.ttf');
+}
+body{
+    background-color: #f4f4f4;
+}
+
+#to-print {
+	padding: 1% 0;
+	width: 210mm; 
+    height: 297mm;
+	margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 1px 3px 4px #000, -1px -2px 4px #000;
+    overflow: hidden;
+}
+#to-print h1 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font: 340 16px/1 Arial;
+    margin-top: 4%;
+}
+
+#to-print h2 {
+    font: 720 12px/1.4 font_01,Arial;
+    width: 45%;
+    display: block;
+    text-align: left;
+    margin: 4% 0 1% 3%;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+#to-print #header {
+	width: 95%; height: 135px;
+    margin: 3% auto 0 auto;
+	display: grid;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+    background-color: #fff;
+	grid-template-columns: 10% 15% 15% 2% 6% 4% 4% 4% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 7% 4% 5%;
+}
+#to-print #header .boxe{
+    width: 100%;
+    height: 134px;
+    text-align:center;
+    border-left: 1px solid #000;
+}
+
+
+#to-print #header .boxe .content {
+    display: inline-block;
+    width: 98%;
+    height: 15px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+#to-print #header .boxe .-rtt{
+    width: auto; 
+    height: 134px;
+    margin: auto auto;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr; 
+}
+#to-print #header .boxe .-big{
+    font-size: 6px;
+    letter-spacing: .5px;
+}
+
+#data {
+    width: 95%; height: auto;
+    margin: auto auto;
+    background: #fff;
+    border: 1px solid #000;
+    border-right: none;
+    border-bottom: none;
+}
+
+#data .row {
+    width: 100%;
+    height: 13px;
+    display: grid;
+    grid-column-gap: 0;
+    border-bottom: 1px solid #000;
+   
+    grid-template-columns: 10% 15% 15% 2% 6% 4% 4% 4% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 2% 7% 4% 5%;
+}
+
+#data .row .coll {
+    display: block;
+    width: 100%;
+    height: 12px;
+    text-align: center;
+    border-right: 1px solid #000;
+    outline: none;
+    text-transform: uppercase;
+    font: 720 7px/12px font_01,Arial;
+    color: red;
+}
+#data .row:hover{
+    background: #cecece;
+} 
+#data .row .coll:focus{
+    cursor: pointer;
+     background: #f5f1a2;
+}
+
+#controls{
+    display: block;
+    width: 210mm; 
+    border: 1px solid #000;
+    margin: 2% auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+#controls h3 {
+    display: block;
+    width: 100%;
+    font: 200 12px/1 Arial;
+    text-align: center;
+    margin: 1% 0 2% 0;
+    color: #818181;
+}
+
+#controls input {
+    width: 29%;
+    border-radius: 5px;
+    padding: 2% 2%;
+    border: 1px solid #000;
+    background: #000;
+    box-shadow: 1px 2px 2px #000;
+    margin: 3% auto;
+    font: 300 14px/1 Arial;
+    color: #fff;
+}
+
+#controls input:hover{
+    background: #aeaeae;
+    cursor: pointer;
+}

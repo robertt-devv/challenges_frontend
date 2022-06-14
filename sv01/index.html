@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <title></title>
+</head>
+<body>
+    <main id="to-print">
+        <h1>planilha do SISVAN, vitamina A, sulfato e AIDPI comunitário</h1>
+        <h2 contenteditable="true">Seu nome aqui</h2>
+        <header id="header">
+           <div class="boxe"><span class="content">data</span></div>
+           <div class="boxe"><span class="content">aldeia</span></div>
+           <div class="boxe"><span class="content">nome</span></div>
+           <div class="boxe"><span class="content -rtt">sexo ( M / F )</span></div>
+           <div class="boxe"><span class="content -rtt">data de nascimento</span></div>
+           <div class="boxe"><span class="content -rtt">idade ( meses )</span></div>
+           <div class="boxe"><span class="content -rtt">peso</span></div>
+           <div class="boxe"><span class="content -rtt">altura</span></div>
+           <div class="boxe"><span class="content -rtt">bolsa família</span></div>
+           <div class="boxe"><span class="content -rtt">cestas de alimento</span></div>
+           <div class="boxe"><span class="content -rtt">leite não humano</span></div>
+           <div class="boxe"><span class="content -rtt">outros benefícios</span></div>
+           <div class="boxe"><span class="content -rtt -big">não recebe benefícios sociais </span></div>
+           <div class="boxe"><span class="content -rtt">sem informacões</span></div>
+           <div class="boxe"><span class="content -rtt">estado nultricional</span></div>
+           <div class="boxe"><span class="content -rtt">exclusivo</span></div>
+           <div class="boxe"><span class="content -rtt">predominante</span></div>
+           <div class="boxe"><span class="content -rtt -big">alimentacão complementar</span></div>
+           <div class="boxe"><span class="content -rtt -big">não recebe léite materno</span></div>
+           <div class="boxe"><span class="content -rtt">sem informacões</span></div>
+           <div class="boxe"><span class="content -rtt">vitamina A (data)</span></div>
+           <div class="boxe"><span class="content -rtt">sulfato ferroso (doses)</span></div>
+           <div class="boxe"><span class="content -rtt">AIDPI comunitário</span></div>
+        </header>
+        <section id="data"></section>
+    </main>
+
+    <section id="controls">
+      <h3>by robertt-devv@outlook.com</h3>
+      <input class="bnt" type="button" value="salvar"   onclick="app.save()"/>
+      <input class="bnt" type="button" value="carregar" onclick="app.load()"/>
+      <input class="bnt" type="button" value="imprimir" onclick="app.prnt()"/>
+      <input class="bnt" type="button" value="adcionar" onclick="app.addrw()"/>
+      <input class="bnt" type="button" value="cores"    onclick="app.color()"/>
+      <input class="bnt" type="button" value="backup"   onclick="app.backup()"/>
+    </section>
+    <script src="src/main.js"></script>
+</body>
+</html>
